@@ -43,6 +43,6 @@ hr-payroll-analytics-dashboard/
 1. Jalankan semua file query yang ada pada folder `query`
 2. Pada My Workspace, create `Streamlit App` seperti tampilan dibawah ini:
 <img width="242" height="162" alt="image" src="https://github.com/user-attachments/assets/a984ee2d-9ad3-499a-b7c3-18f504b2920a" />
-
-
-
+3. Pada folder report_harian, create sql file `report_schedule.sql`
+<img width="209" height="186" alt="image" src="https://github.com/user-attachments/assets/5ee05c29-460e-401c-82c6-41de6e08c5c3" />
+4. Setelah data masuk ke tabel `laporan_dashboard_snapshot`, maka run `streamlit_app.py`
