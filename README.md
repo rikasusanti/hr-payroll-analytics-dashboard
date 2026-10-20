@@ -29,7 +29,8 @@ hr-payroll-analytics-dashboard/
 ├── query/
 │   └── tables.sql                  # Pembuatan database dan tables
 │   └── sample_data.sql             
-│   └── sample_data2.sql             
+│   └── sample_data2.sql
+│   └── cek_riwayat_eksekusi.sql            
 │
 └── README.md                       # Dokumentasi repositori
 ```
@@ -46,3 +47,4 @@ hr-payroll-analytics-dashboard/
 3. Pada folder report_harian, create sql file `report_schedule.sql`
 <img width="209" height="186" alt="image" src="https://github.com/user-attachments/assets/5ee05c29-460e-401c-82c6-41de6e08c5c3" />
 4. Setelah data masuk ke tabel `laporan_dashboard_snapshot`, maka run `streamlit_app.py`
+5. Jalankan `cek_riwayat_eksekusi.sql` untuk mengecek `report_schedule.sql` berjalan dengan lancar atau tidak 
