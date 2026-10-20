@@ -15,13 +15,6 @@ Proyek ini bertujuan untuk mengotomasi proses agregasi data karyawan, status abs
 - **Detailed Data Exploration:** Penampil tabel detail karyawan interaktif berbasis DataFrame.
 
 ---
-
-## 🖼️ Tampilan Dashboard
-<img width="1787" height="896" alt="image" src="https://github.com/user-attachments/assets/8e550816-5530-4cd6-8cfe-15b84f0e2148" />
-
-
----
-
 ## 🏗️ Struktur Repositori
 
 ```text
@@ -39,3 +32,17 @@ hr-payroll-analytics-dashboard/
 │   └── sample_data2.sql             
 │
 └── README.md                       # Dokumentasi repositori
+```
+
+## 🖼️ Tampilan Dashboard
+<img width="1787" height="896" alt="image" src="https://github.com/user-attachments/assets/8e550816-5530-4cd6-8cfe-15b84f0e2148" />
+
+---
+
+## 🚀 Panduan
+1. Jalankan semua file query yang ada pada folder `query`
+2. Pada My Workspace, create `Streamlit App` seperti tampilan dibawah ini:
+<img width="242" height="162" alt="image" src="https://github.com/user-attachments/assets/a984ee2d-9ad3-499a-b7c3-18f504b2920a" />
+
+
+
