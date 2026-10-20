@@ -27,18 +27,15 @@ Proyek ini bertujuan untuk mengotomasi proses agregasi data karyawan, status abs
 ```text
 hr-payroll-analytics-dashboard/
 │
-├── sql/
-│   └── report_schedule.sql         # Skrip pembuatan Snowflake Task & query tabel snapshot
-│
 ├── dashboard/
-│   ├── .streamlit/
-│   │   └── config.toml             # Konfigurasi antarmuka Streamlit
-│   ├── pyproject.toml              # Definisi dependensi & metadata proyek
-│   ├── snowflake.yml               # Konfigurasi Snowflake CLI / App deployment
+│   ├── snowflake.yml               
 │   └── streamlit_app.py            # Kode visualisasi dashboard utama
 │
-├── assets/
-│   └── dashboard_preview.png       # Screenshot tampilan aplikasi dashboard
+├── report_schedule.sql             # Skrip pembuatan Snowflake Task & query tabel snapshot
 │
-├── .gitignore                      # File ignore Git
+├── query/
+│   └── tables.sql                  # Pembuatan database dan tables
+│   └── sample_data.sql             
+│   └── sample_data2.sql             
+│
 └── README.md                       # Dokumentasi repositori
